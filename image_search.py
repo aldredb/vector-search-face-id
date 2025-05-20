@@ -88,7 +88,7 @@ def main():
                 print(f"{doc['image_path']} - Face {str(doc['faceNo'])}: {str(doc['score'])}")
                 st.image(doc['image_path'], use_container_width=True)
                 # Display score with larger text using markdown
-                st.markdown(f"<h3 style='text-align: center;'>Similarity Score: {doc['score']:.4f}</h3>", unsafe_allow_html=True)
+                st.markdown(f"<h4 style='text-align: center;'>Vector Search Score: {doc['score']:.4f}</h4>", unsafe_allow_html=True)
                 st.divider()  # Add divider between results
 
 if __name__ == "__main__":
