@@ -1,10 +1,12 @@
 # Face matching with ID
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+brew install uv
 
-pip3 install -r requirements.txt
+uv venv --python 3.12
+source .venv/bin/activate
+
+uv sync
 ```
 
 Copy the environment variable template and fill in necessary information

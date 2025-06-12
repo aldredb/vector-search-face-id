@@ -1,0 +1,14 @@
+[project]
+name = "vector-search-face-id"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "insightface==0.7.3",
+    "onnx==1.17.0",
+    "onnxruntime==1.21.1",
+    "pymongo>=4.13.1",
+    "streamlit>=1.45.1",
+]

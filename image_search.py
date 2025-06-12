@@ -72,7 +72,8 @@ def main():
 
             # Display the uploaded image
             image = Image.open(uploaded_file)
-            st.image(image, caption="Uploaded Photo.", use_container_width=True)
+            st.image(image, use_container_width=True)
+            st.markdown("<h3 style='text-align: center;'>Uploaded Photo</h3>", unsafe_allow_html=True)
             
             # Vectorize the uploaded image
             vector = vectorize_image(opencv_image)
