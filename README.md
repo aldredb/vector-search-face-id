@@ -43,5 +43,5 @@ Create the following Vector Search index in the collection
 Run the image search UI
 
 ```bash
-streamlit run image_search.py
+python image_search.py
 ```
